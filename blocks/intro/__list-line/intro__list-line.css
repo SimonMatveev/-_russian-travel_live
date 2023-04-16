@@ -1,0 +1,14 @@
+.intro__list-line {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+

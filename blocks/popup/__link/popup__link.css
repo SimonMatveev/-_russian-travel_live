@@ -1,0 +1,5 @@
+.popup__link {
+    text-decoration: underline;
+    cursor: pointer;
+    margin: 15px 0 0;
+}

@@ -1,0 +1,12 @@
+.menu__open-popup {
+    border: none;
+    background-color: transparent;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #fff;
+    text-decoration: underline;
+    margin-left: auto;
+    padding-top: 12px;
+    cursor: pointer;
+}

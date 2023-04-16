@@ -1,0 +1,23 @@
+.lead {
+    min-width: 320px;
+    padding: 0;
+    margin: 48px 0 0;
+}
+
+@media screen and (min-width: 1024px) {
+    .lead {
+        margin: 48px 48px 0;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .lead {
+        margin-top: 48px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .lead {
+        margin: 56px 148px 0;
+    }
+}
