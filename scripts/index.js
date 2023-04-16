@@ -74,15 +74,16 @@ headerElement.addEventListener('click', () => {
 })
 
 const popupLink = popupElement.querySelector('.popup__link');
-const popupImage = popupElement.querySelector('.popup__img');
+const popupImage = popupElement.querySelector('.popup__img-container');
+const popupImageCloseBtn = popupElement.querySelector('.popup__img-close');
 
 const showAndHideImage = function (event) {
     if (event.target.classList.contains("popup__link")) {
         popupLink.classList.add("popup__link_hidden");
-        popupImage.classList.add("popup__img_visible");
-    } else if (event.target.classList.contains("popup__img")) {
+        popupImage.classList.add("popup__img-container_visible");
+    } else if (event.target.classList.contains("popup__img-close")) {
         popupLink.classList.remove("popup__link_hidden");
-        popupImage.classList.remove("popup__img_visible");
+        popupImage.classList.remove("popup__img-container_visible");
     } else return;
 }
 
