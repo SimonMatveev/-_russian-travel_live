@@ -75,7 +75,6 @@ headerElement.addEventListener('click', () => {
 
 const popupLink = popupElement.querySelector('.popup__link');
 const popupImage = popupElement.querySelector('.popup__img-container');
-const popupImageCloseBtn = popupElement.querySelector('.popup__img-close');
 
 const showAndHideImage = function (event) {
     if (event.target.classList.contains("popup__link")) {
